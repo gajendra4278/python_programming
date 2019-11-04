@@ -10,7 +10,7 @@ def increment_star (n):
 
 def decrement_star (n):
     n = n + 1
-    print (n)
+    #print (n)
     for i in range (n, 0, -1):
         for j in range (i-1, 0, -1):
             print ("*", end = " ")
